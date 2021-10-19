@@ -1,4 +1,9 @@
-package labKomNum;
+/*
+* Perhitungan akar metode newton raphson
+* Cut Nurhidayanti nim 2008107010027
+* link you tube : https://youtu.be/mUqzUEXf83o
+* link git hub  : https://github.com/cutnurhidayanti/Lab-KomNum/tree/main/tugas5
+**/
 
 import java.lang.Math;
 
