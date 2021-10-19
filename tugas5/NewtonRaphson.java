@@ -80,13 +80,10 @@ public class NewtonRaphson {
                 System.out.println("\n+---------------------------------------------------------------+");
                 System.out.printf("Akar persamaan adalah %f pada iterasi %d\n",akar, i);
                 break;
-            }if(fx<=e){
+            }if(fx<=e || i>=10){
                 System.out.println("\n+---------------------------------------------------------------+");
                 System.out.printf("Akar persamaan adalah %f pada iterasi %d\n",akar, i);
                 break;
-            }if(i>=10){
-                System.out.println("\n+---------------------------------------------------------------+");
-                System.out.printf("Akar persamaan adalah %f pada iterasi %d\n",akar, i);
             }
             System.out.println();
         }
