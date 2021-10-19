@@ -57,7 +57,7 @@ public class NewtonRaphson {
 
 
         System.out.println("+---------------------------------------------------------------+");
-        System.out.println("|\ti\tx\t\tfx\t\tfax\t\t|");
+        System.out.println("|\ti\tx\t\tf(x)\t\tf'(x)\t\t|");
         System.out.println("+---------------------------------------------------------------+");
 
         for(int i = 0; i<10; i++){
