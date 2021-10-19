@@ -65,13 +65,13 @@ public class NewtonRaphson {
             fax = fungsiFax(x);
 
             akar = x;
-
-            System.out.printf("|\t%d\t%f\t%f\t%f\t|", i, x, fx, fax);//print table
             
             //mencari nilai absolute f(x)
             if(fx<0){
                 fx = -fx;
             }
+            
+            System.out.printf("|\t%d\t%f\t%f\t%f\t|", i, x, fx, fax);//print table
 
             xi = fungsiXi(fx, fax, x);
             x = xi;//menjadi nilai x untuk iterasi selanjutnya
