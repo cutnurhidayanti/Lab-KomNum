@@ -1,2 +1,2 @@
 # Lab-KomNum
-Keep Koding Stay Cool
+Semester 3
